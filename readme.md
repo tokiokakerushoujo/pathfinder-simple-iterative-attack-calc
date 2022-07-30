@@ -9,8 +9,10 @@ This tool is a very very simple UI for generating a series of simple iterative a
 ## Usage
 
 Python 3.9+
+```
 > pip install -r requirements.txt
 > python3 pathfinder-simple-iterative-attack-calc.py
+```
 
 ![the UI, with all the fields I will be explaining](./preview.png "the UI")
 
