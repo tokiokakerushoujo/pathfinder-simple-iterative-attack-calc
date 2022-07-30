@@ -9,6 +9,7 @@ This tool is a very very simple UI for generating a series of simple iterative a
 ## Usage
 
 Python 3.9+
+> pip install -r requirements.txt
 > python3 pathfinder-simple-iterative-attack-calc.py
 
 ![the UI, with all the fields I will be explaining](./preview.png "the UI")
@@ -28,10 +29,12 @@ Simple explanation of the fields:
 
 When you hit the "Roll!" button, it will roll the number of attacks you specified, in the following format:
 
+```
 Attack: [RESULT: CRIT, HIT, or MISS]
     [1d20] => [1d20 + total bonuses]
     (if the first roll was greater than the minimum roll to threaten a Crit)
     Confirm: [1d20] => [1d20 + total bonuses + crit confirm bonuses]: CONFIRM if the total roll was greater than the set enemy AC; otherwise, MISS
+```
 
 ## Future Plans
 I've got a few plans to add a proper release cycle to this that will generate a Windows .exe, but for now it's started from the command line only.
